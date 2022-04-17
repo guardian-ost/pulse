@@ -1,106 +1,136 @@
-@media  (max-width: 991px) {
-    .promo{
+@media (max-width: 991px) {
+    .promo {
         padding: 21px 15px 93px 15px;
     }
-    .consultation{
+
+    .consultation {
         padding: 70px 20px 50px 20px;
 
-        .title{
+        .title {
             text-align: center;
         }
-        &__descr{
+
+        &__descr {
             text-align: center;
         }
-        .feed-form{
+
+        .feed-form {
             margin: 0 auto;
             margin-top: 30px;
         }
     }
+
+    .prev,
+    .next {
+        display: none;
+    }
+
+    .carousel {
+        &__inner {
+            img {
+                width: 80%;
+            }
+        }
+    }
 }
 
-@media  (max-width: 767px) {
-    .promo{
-        &__wrapper{
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
             align-items: center;
         }
     }
 
-    .header{
+    .header {
         align-items: center;
-        &__official{
+
+        &__official {
             display: none;
         }
     }
 }
 
-@media  (max-width: 579px) {
+@media (max-width: 579px) {
     .header {
-        &__phone{
+        &__phone {
             font-size: 14px;
         }
-        
-        &__logo{
-            img{
+
+        &__logo {
+            img {
                 width: 90%;
             }
         }
 
-        .button{
+        .button {
             width: 130px;
             height: 22px;
             font-size: 11px;
         }
     }
-    .promo{
-        &__title{
+
+    .promo {
+        &__title {
             font-size: 35px;
             text-align: center;
         }
-        &__subtitle{
+
+        &__subtitle {
             text-align: center;
             font-size: 20px;
         }
-        &__icons{
+
+        &__icons {
             max-width: 100%;
         }
-        &__icon{
+
+        &__icon {
             font-size: 12px;
-            img{
+
+            img {
                 margin-bottom: 10px;
             }
         }
     }
-    .advan{
+
+    .advan {
         padding: 30px 0;
-        &__wrapper{
+
+        &__wrapper {
             margin-top: 0;
             flex-direction: column;
             align-items: center;
         }
-        &__subheader{
+
+        &__subheader {
             margin-top: 10px;
         }
-        &__item{
+
+        &__item {
             margin-top: 20px;
         }
     }
-    .title{
+
+    .title {
         font-size: 24px;
     }
 
-    .consultation{
+    .consultation {
         padding: 30px 0;
         min-height: 400px;
-        .title{
+
+        .title {
             font-size: 18px;
             line-height: 24px;
         }
-        &__descr{
+
+        &__descr {
             margin-top: 30px;
             font-size: 14px;
             line-height: 18px;
         }
-        .feed-form{
+
+        .feed-form {
             width: 250px;
         }
     }
