@@ -235,9 +235,31 @@
             padding: 0 10px;
         }
     }
-    .footer{
-        &__addr{
+
+    .footer {
+        &__addr {
             font-size: 16px;
+        }
+    }
+
+    .modal {
+        width: 80%;
+        padding: 10px;
+        min-height: 350px;
+        &__close {
+            right: -30px;
+        }
+    }
+    .feed-form{
+        &_mt25{
+            width: 100%;
+
+        }
+        input{
+            margin: 0 auto;
+            margin-bottom: 10px;
+            width: 90%;
+            padding: 0 10px; 
         }
     }
 }
