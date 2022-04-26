@@ -9,5 +9,13 @@
         text-align: left;
         color: #FFFFFF;
     }
-
+    .error {
+        text-align: center;
+        border: 1px solid red;
+        margin-bottom: 15px;
+    }
+    label.error{
+        border: none;
+        color:#FFFFFF;
+    }
 }

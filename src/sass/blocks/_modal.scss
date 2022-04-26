@@ -8,6 +8,15 @@
 }
 
 .modal{
+    .error {
+        text-align: center;
+        border: 1px solid red;
+        margin-bottom: 15px;
+    }
+    label.error{
+        border: none;
+    }
+
     position: absolute;
     top: 50%;
     left: 50%;
