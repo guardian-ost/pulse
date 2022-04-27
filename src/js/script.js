@@ -114,4 +114,7 @@ $(document).ready(function () {
             $('.page-up').fadeOut();
         }
     });
+
+    new WOW().init();
+
 });
