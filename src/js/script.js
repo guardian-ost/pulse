@@ -106,5 +106,12 @@ $(document).ready(function () {
             
         });
         return false;
-    })
+    });
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 1600 ) {
+            $('.page-up').fadeIn();
+        } else {
+            $('.page-up').fadeOut();
+        }
+    });
 });

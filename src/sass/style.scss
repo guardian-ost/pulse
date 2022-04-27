@@ -12,11 +12,15 @@
 @import "blocks/reviews";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageup";
 @import "media";
 
 * {
     font-family: 'Museo Sans', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .container {
     max-width: 950px;
